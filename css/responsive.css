@@ -1,0 +1,282 @@
+/* extra small device */
+@media screen and (max-width:575px) {
+    /* banner part */
+    #banner__section .banner__text{
+        width: 320px;
+        background: rgba(0, 0, 0,.9);
+        padding: 15px;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+        margin-top: 80px;
+    }
+    #banner__section .banner__text h4{
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    #banner__section .banner__text h4 span{
+        font-size: 28px;
+        margin-bottom: 5px;
+    }
+    #banner__section .banner__text .banner__button a{
+        width: 280px;
+        margin-bottom: 20px;
+    }
+
+    /* about part */
+    #about__section .about__text h2{
+        font-size: 40px;
+    }
+    #about__section .about__text p{
+        padding-right: 15px;
+    }
+    #about__section .about__text a{
+        margin-top: 30px;
+    }
+    /* navs and tabs */
+    .nabs__tabs--button ul{
+        padding-left: 85px;
+    }
+    .nabs__tabs--button ul li button{
+        width: 210px;
+    }
+    .nabs__tabs--button ul li .brd__lft{
+        border-top-right-radius: 25px !important;
+        border-bottom-left-radius: 0px !important;
+    }
+    .nabs__tabs--button ul li .brd__rgt{
+        border-top-right-radius: 0px !important;
+        border-bottom-right-radius: 25px !important;
+        border-bottom-left-radius: 25px !important;
+    }
+    .nabs__tabs--contents p{
+        padding: 0 !important;
+        font-size: 14px;
+    }
+    .sub-content img {
+        display: block;
+        width: 100%;
+    }
+    .nabs__tabs--contents .sub--nabs__tabs--contents .sub-content h6{
+        font-size: 24px;
+    }
+    .nabs__tabs--contents .sub--nabs__tabs--contents .sub-content .div p{
+        font-size: 14px;
+    }
+    .nabs__tabs--contents .sub--nabs__tabs--contents .sub-content a {
+        padding: 8px;
+        font-size: 14px;
+        margin: 8px 0;
+    }
+
+    .nabs__tabs--contents .sub--nabs__tabs ul{
+        font-size: 14px;
+    }
+    .instra__gram .overlay__instra ul li{
+        padding: 51px 34px;
+    }
+    .instra__gram--2 .overlay__instra ul li{
+        padding: 60px 34px;
+    }
+    .instra__gram--3 .overlay__instra ul li{
+        padding: 42px 34px;
+    }
+    .instra__gram--5{
+        overflow: hidden;
+    }
+    .instra__gram--5 .overlay__instra ul li {
+        padding: 144px 35px !important;
+    }
+    .instra__video{
+        width: 97%;
+    }
+}
+/*  small device */
+@media (min-width:576px) and (max-width:767px) {
+    /* banner part */
+    #banner__section .banner__text{
+        width: 320px;
+        background: rgba(0, 0, 0,.9);
+        padding: 15px;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+        margin-top: 80px;
+    }
+    #banner__section .banner__text h4{
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    #banner__section .banner__text h4 span{
+        font-size: 28px;
+        margin-bottom: 5px;
+    }
+    #banner__section .banner__text .banner__button a{
+        width: 280px;
+        margin-bottom: 20px;
+    }
+
+    /* about part */
+    #about__section .about__text h2{
+        font-size: 40px;
+    }
+    #about__section .about__text p{
+        padding-right: 15px;
+    }
+    #about__section .about__text a{
+        margin-top: 30px;
+    }
+    /* navs and tabs */
+    .nabs__tabs--button ul li button{
+        width: 220px;
+    }
+    .nabs__tabs--button ul li .brd__lft{
+        border-top-right-radius: 25px !important;
+        border-bottom-left-radius: 0px !important;
+    }
+    .nabs__tabs--button ul li .brd__rgt{
+        border-top-right-radius: 0px !important;
+        border-bottom-right-radius: 25px !important;
+        border-bottom-left-radius: 25px !important;
+    }
+    .nabs__tabs--contents p{
+        padding: 0 !important;
+        font-size: 14px;
+    }
+    .sub-content img {
+        display: block;
+        width: 100%;
+    }
+    .nabs__tabs--contents .sub--nabs__tabs--contents .sub-content h6{
+        font-size: 24px;
+    }
+    .nabs__tabs--contents .sub--nabs__tabs--contents .sub-content .div p{
+        font-size: 14px;
+    }
+    .nabs__tabs--contents .sub--nabs__tabs--contents .sub-content a {
+        padding: 8px;
+        font-size: 14px;
+        margin: 8px 0;
+    }
+    .instra__gram .overlay__instra ul li{
+        font-size: 14px;
+    }
+    .nabs__tabs--contents .sub--nabs__tabs ul{
+        font-size: 14px;
+    }
+    .instra__gram .overlay__instra ul li{
+        padding: 76px 34px;
+    }
+    .instra__gram--2 .overlay__instra ul li{
+        padding: 87px 34px;
+    }
+    .instra__gram--3 .overlay__instra ul li{
+        padding: 76px 34px;
+    }
+    .instra__gram--5{
+        overflow: hidden;
+    }
+    .instra__gram--5 .overlay__instra ul li {
+        padding: 207px 35px !important;
+    }
+    .instra__video{
+        width: 97%;
+    }
+}
+/*  medium device */
+@media (min-width:768px) and (max-width:991px) {
+    /* banner part */
+    #banner__section .banner__text{
+        width: 420px;
+        background: rgba(0, 0, 0,.9);
+        padding: 25px;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+        margin-top: 80px;
+    }
+    #banner__section .banner__text h4{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    #banner__section .banner__text h4 span{
+        font-size: 48px;
+        margin-bottom: 5px;
+    }
+    #banner__section .banner__text .banner__button a{
+        width: 280px;
+        margin-bottom: 20px;
+    }
+
+    /* about part */
+    #about__section .about__text h2{
+        font-size: 40px;
+    }
+    #about__section .about__text p{
+        padding-right: 15px;
+    }
+    #about__section .about__text a{
+        margin-top: 30px;
+    }
+    
+    .nabs__tabs--contents p{
+        padding: 0 !important;
+        font-size: 14px;
+    }
+    .sub-content img {
+        display: block;
+        width: 100%;
+    }
+    .nabs__tabs--contents .sub--nabs__tabs--contents .sub-content h6{
+        font-size: 24px;
+    }
+    .nabs__tabs--contents .sub--nabs__tabs--contents .sub-content .div p{
+        font-size: 14px;
+    }
+    .nabs__tabs--contents .sub--nabs__tabs--contents .sub-content a {
+        padding: 8px;
+        font-size: 16px;
+        margin: 8px 0;
+    }
+    .nabs__tabs--contents .sub--nabs__tabs ul{
+        font-size: 14px;
+    }
+    /* instragram part */
+    .instra__gram{
+        overflow: hidden;
+    }
+    .instra__gram .overlay__instra ul li{
+        font-size: 14px;
+        padding: 25px 50px;
+    }
+    .instra__gram--5 .overlay__instra ul li {
+        font-size: 14px !important;
+        padding: 219px 117px !important;
+    }
+  
+    .instra__video{
+        width: 97%;
+    }
+    .contact__text{
+        padding-top: 25px;
+    }
+}
+/* large device */
+@media (min-width:992px) and (max-width:1199px) {
+    #banner__section .banner__text{
+        width: 420px;
+        background: rgba(0, 0, 0,.9);
+        padding: 25px;
+        border-bottom-left-radius: 0px;
+        margin-top: 20px;
+    } 
+    #banner__section .banner__text h4{
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    #banner__section .banner__text h4 span{
+        font-size: 48px;
+        margin-bottom: 5px;
+    }
+    #banner__section .banner__text .banner__button a{
+        width: 280px;
+        margin-bottom: 20px;
+    }
+}

@@ -1,0 +1,895 @@
+/*-----------------------------------------------------------------------------------
+
+    Template Name: Responsive  Landing Page Template  
+    Template URI:
+    Description: This is html5 template
+    Author: 
+    Author URI: 
+    Version: 2
+
+-----------------------------------------------------------------------------------
+    
+    CSS INDEX
+    ===================
+	
+    1. Template default css
+    2. Header Section
+    3. Slider Section
+    4. Service Section 
+    5. About Section
+    6. Career Section
+    7. Testimonials Section
+    8. Subscribe Section 
+    9. Pricing Section
+    10. Counter Section
+    11. Footer Section
+    12. Scrollup
+    13. Blog details
+    
+    
+-----------------------------------------------------------------------------------*/
+
+
+/* 1.---------------------------------------------
+                Template default css
+------------------------------------------------*/
+
+body {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #000000;
+}
+
+img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    outline: 0;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+a:hover {
+    text-decoration: none;
+    outline: 0;
+}
+
+ul,
+li,
+ol {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+li,
+p,
+a {
+    margin: 0;
+    padding: 0;
+}
+a,
+p {
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+      
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+
+
+h2 {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+
+a:focus,
+.btn:focus,
+.button:focus,
+select:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none;
+}
+
+button:focus {
+    outline: 0;
+}
+
+.overflow_x {
+    overflow-x: hidden;
+}
+
+.form-control:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+.slick-active:focus {
+    outline: 0;
+}
+
+.display__block{
+    display: block;
+}
+body{
+    overflow-x: hidden;
+}
+/* 2.-------------------------------------------
+                    banner Section
+-----------------------------------------------*/
+#banner__section{
+       background: url(../images/banner/banner.webp)no-repeat top;
+       background-size: cover;
+       width: 100%;
+       height: 100vh;
+       padding-top: 90px;
+}
+#banner__section .banner__text{
+    width: 550px;
+    background: rgba(0, 0, 0,.7);
+    padding: 40px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    margin-left: auto;
+}
+#banner__section .banner__text h4{
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 25px;
+    line-height: 1.4;
+}
+#banner__section .banner__text h4 span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 67px;
+    font-weight: 800;
+    color: #ffffff;
+    display: block;
+}
+
+#banner__section .banner__text .banner__button a{
+    display: inline-block;
+    width: 320px;
+    background: #ffffff;
+    color: #181818;
+    padding: 8px 0;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 25px;
+    border: 2px solid #ffffff;
+    border-radius: 15px;
+    transition: .4s;
+}
+#banner__section .banner__text .banner__button .pricing{
+    background: transparent;
+    color: #ffffff;
+}
+#banner__section .banner__text .banner__button a:hover{
+    background: #1D2CF3;
+    border-color: #1D2CF3;
+    color: #ffffff;
+}
+
+/* 3.-------------------------------------------
+                    About Section
+-----------------------------------------------*/
+#about__section{
+    background: #181818;
+    padding: 100px 0;
+    padding-left: 25px;
+}
+#about__section .about__img--details svg{
+    color: #ffffff !important;
+    width: 60px;
+    fill: #ffffff;
+    transform: rotate(180deg);
+    margin-top: 25px;
+}
+#about__section .about__text h2{
+    color: #ffffff;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    font-size: 58px;
+    font-weight: 700;
+    position: relative;
+    padding-bottom: 15px;
+    display: inline-block;
+}
+#about__section .about__text h2::after{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: #ffffff;
+    content: "";
+    animation: about 4s infinite ease-in-out ;
+}
+@keyframes about {
+    0%,100%{
+        width: 0;
+    }
+    50%{
+        width: 100%;
+    }
+}
+#about__section .about__text p{
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-top: 25px;
+    line-height: 1.5;
+}
+#about__section .about__text a{
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 700;
+    background: #ffffff;
+    color: #181818;
+    width: 80%;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 55px;
+    border-radius: 10px;
+    transition: .4s;
+
+}
+#about__section .about__text a:hover{
+    background: #1D2CF3;
+    color: #ffffff;
+}
+#about__section .about__img{
+    overflow: scroll;
+    overflow-y: hidden;
+    padding-top: 20px;
+}
+#about__section .about__img img{
+width: 480px;
+height: 400px;
+}
+#about__section .about__img .qualifiction{
+    width: 500px;
+    height: 400px;
+    background: #ffffff;
+    margin: 0 10px;
+    padding: 50px;
+    padding-right: 120px;
+}
+
+#about__section .about__img .qualifiction h3{
+ display: block !important;
+ font-family: 'Poppins', sans-serif;
+ font-size: 28px;
+ font-weight: 700;
+ color: #181818;
+ margin-bottom: 25px;
+
+}
+#about__section .about__img .qualifiction ul{
+  font-family: 'Zen Kaku Gothic Antique', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #181818;
+  padding-left: 25px;
+}
+#about__section .about__img .qualifiction ul li{
+  line-height: 1.7;
+  list-style: disc;
+}
+/* 4.-------------------------------------------
+                    nabs tabs Section
+-----------------------------------------------*/
+#navs__tabs__section{
+    padding: 80px 0;
+}
+.nabs__tabs--button{
+    text-align: center;
+    margin: 0 auto;
+}
+.nabs__tabs--button ul li button{
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #181818 !important;
+    background: transparent;
+    border: 1px solid #181818 !important;
+    overflow: hidden !important;
+    border-radius: 0 !important;
+ 
+}
+.nabs__tabs--button ul li .active{
+    border-radius: 0px !important;
+    border-color: #1D2CF3 !important;
+    color: #ffffff !important;
+    transform: scale(.96);
+}
+.nabs__tabs--button ul li .brd__lft{
+    border-top-left-radius: 15px !important;
+    border-bottom-left-radius: 15px !important;
+}
+.nabs__tabs--button ul li .brd__rgt{
+    border-top-right-radius: 15px !important;
+    border-bottom-right-radius: 15px !important;
+}
+.nabs__tabs--contents{
+    text-align: center !important;
+}
+.nabs__tabs--contents h3{
+   font-family: 'Poppins', sans-serif;
+   font-size: 30px;
+   font-weight: 500;
+   color: #181818;
+   margin-top: 25px;
+   padding-bottom: 15px;
+   position: relative;
+}
+.nabs__tabs--contents h3::after{
+    width: 50%;
+    height: 3px;
+    background: #1D2CF3;
+    border-radius: 25px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    content: "";
+    animation: title 7s infinite;
+}
+@keyframes title {
+    0%,100%{
+     width: 0;
+    }
+    50%{
+        width: 50%;
+    }
+}
+.nabs__tabs--contents p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #4f4f4f;
+    line-height: 1.5;
+    padding: 0 150px;
+    margin-top: 25px;
+ }
+ .nabs__tabs--contents .basket__plan{
+     border: 1px solid #1818183f;
+     width: 80%;
+     height: 300px;
+     margin: 0 auto;
+     margin-top: 80px;
+     font-family: 'Zen Kaku Gothic Antique', sans-serif;
+     
+ }
+ .nabs__tabs--contents .basket__plan p{
+     font-size: 14px;
+     color: #181818;
+     font-weight: 300;
+     padding: 0 !important;
+
+ }
+ .nabs__tabs--contents .basket__plan h6{
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    font-size: 56px;
+    color: #181818;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.nabs__tabs--contents .basket__plan a{
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    display: inline-block;
+    width: 250px;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 700;
+    margin-top: 50px;
+    background:  linear-gradient(#1D2CF3,#3b47eb);
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 1px 6px 0px rgba(0,0,0,0.39);
+    -webkit-box-shadow: 0px 1px 6px 0px rgba(0,0,0,0.39);
+    -moz-box-shadow: 0px 1px 6px 0px rgba(0,0,0,0.39);
+
+}
+.nabs__tabs--contents .basket__plan a:hover{
+    background:  linear-gradient(#2e37ad,#1D2CF3);
+
+}
+.nabs__tabs--contents .best-plan{
+    background: #1818181a;
+    position: relative;
+}
+.nabs__tabs--contents .best-plan div{
+  font-family: 'Zen Kaku Gothic Antique', sans-serif;
+  font-size: 14px;
+  color: #ffffff !important;
+  background: #1D2CF3;
+  padding: 8px 5px;
+  color: #18181885;
+  width: 80px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+}
+.training img{
+    display: block;
+}
+.training .training__details{
+    text-align: center;
+}
+.nabs__tabs--contents .training{
+    display: inline-block;
+    border: 1px solid #4f4f4f63;
+    padding: 5px;
+    margin-top: 25px;
+}
+.nabs__tabs--contents .training .training__details h6{
+   font-size: 36px;
+   font-weight: 600;
+   color: #181818;
+   display: inline-block;
+   border-bottom: 1px solid #4f4f4f3a;
+   padding: 94px;
+   padding-bottom: 25px;
+}
+.nabs__tabs--contents .training .training__details p{
+    font-size: 24px;
+    font-weight: 600;
+    color: #181818;
+    padding-bottom: 25px;
+ }
+ .nabs__tabs--contents .training .training__details a{
+     display: inline-block;
+     text-align: center;
+     background: #1D2CF3;
+     padding: 10px;
+     font-size: 16px;
+     font-weight: 700;
+     color: #ffffff;
+     border-radius: 10px;
+ }
+
+.sub--content__two{
+    display: none;
+}
+.sub--content__three{
+ 
+    display: none;
+
+}
+
+ .nabs__tabs--contents .sub--nabs__tabs{
+     text-align: center;
+ }
+ .nabs__tabs--contents .sub--nabs__tabs ul{
+     text-align: center;
+     font-family: 'Zen Kaku Gothic Antique', sans-serif;
+     font-size: 18px;
+     border-bottom: 1px solid #4f4f4fa8;
+     display: inline-block;
+     margin-top: 25px;
+     margin-bottom: 25px;
+     padding-bottom: 15px;
+ }
+ .nabs__tabs--contents .sub--nabs__tabs ul li{
+     display: inline-block;
+     margin: 0 5px;
+     cursor: pointer;
+
+ }
+ .nabs__tabs--contents .sub--nabs__tabs ul .active{
+    position: relative;
+
+ }
+ .nabs__tabs--contents .sub--nabs__tabs ul .active::after{
+     width: 105%;
+     height: 3px;
+     position: absolute;
+     bottom: -17px;
+     left: -4px;
+     background: #1D2CF3;
+     content: "";
+ }
+ .sub-content{
+     width: 100%;
+ }
+ .sub-content .sub-cntn-img{
+     display: grid;
+ }
+ .sub-content img{
+    display: block;
+
+}
+.sub--nabs__tabs--contents .sub-content{
+    text-align: center;
+}
+.sub--nabs__tabs--contents .sub-content{
+    display: inline-block;
+    border: 1px solid #4f4f4f63;
+    padding: 5px;
+    margin-top: 25px;
+}
+.nabs__tabs--contents .sub--nabs__tabs--contents .sub-content .div{
+   padding-bottom: 25px;
+   border-bottom: 1px solid #4f4f4f3a;
+   display: inline-block;
+
+}
+.nabs__tabs--contents .sub--nabs__tabs--contents .sub-content h6{
+   font-size: 36px;
+   font-weight: 600;
+   color: #181818;
+   display: inline-block;
+   padding: 0 94px;
+   margin-top: 25px;
+   box-sizing: border-box;
+}
+.nabs__tabs--contents .sub--nabs__tabs--contents .sub-content .div p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #4f4f4f;
+    padding-bottom: 5px;
+ }
+ .nabs__tabs--contents .sub--nabs__tabs--contents .sub-content .div a{
+    display: block;
+    text-decoration: underline !important;
+    background: transparent;
+    padding: 0 !important;
+    color: #4f4f4f !important;
+
+ } 
+ .nabs__tabs--contents .sub--nabs__tabs--contents .sub-content .sub-cntn-img a{
+    background: transparent;
+    padding: 0px;
+    border-radius: 0;
+}
+.nabs__tabs--contents .sub--nabs__tabs--contents .sub-content p{
+    font-size: 26px;
+    font-weight: 400;
+    color: #4f4f4f;
+
+    padding-bottom: 25px;
+ }
+ .nabs__tabs--contents .sub--nabs__tabs--contents .sub-content a{
+     display: inline-block;
+     text-align: center;
+     background: #1D2CF3;
+     padding: 10px;
+     font-size: 16px;
+     font-weight: 700;
+     color: #ffffff;
+     border-radius: 10px;
+ }
+ /* 5.-------------------------------------------
+                    Instragram Section
+-----------------------------------------------*/
+#instragram__section{
+    padding: 80px 0;
+}
+#instragram__section h2{
+   font-family: 'Poppins', sans-serif;
+   font-size: 28px;
+   font-weight: 600;
+   color: #181818;
+   margin-bottom: 35px;
+
+}
+#instragram__section h2 i{
+    padding-left: 25px;
+
+}
+.instra__gram{
+    background: url(../images/instragram/men2.jpg)no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    position: relative;
+    margin-bottom: 25px;
+    overflow: hidden;
+}
+.instra__gram--2{
+    background: url(../images/instragram/men3.jpg)no-repeat center;
+    background-size: cover;
+}
+.instra__gram--3{
+    background: url(../images/instragram/men4.jpg)no-repeat center;
+    background-size: cover;
+}
+.instra__gram--5{
+    background: url(../images/instragram/men1.jpg)no-repeat center;
+    background-size: cover;
+    height: 625px;
+}
+.instra__gram--4{
+    background: none;
+    overflow: hidden;
+}
+.instra__gram--4 .overlay__instra{ 
+   position: absolute;
+   top: 0;
+   left: 0;
+}
+.instra__gram--5 .overlay__instra ul li{
+   font-size: 14px !important;
+   padding: 165px 117px !important;
+ }
+.instra__video{
+    width: 115%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+}
+.instra__video video{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.instra__gram .overlay__instra{
+    background: #18181854;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.instra__gram .overlay__instra ul li{
+   font-family: 'Poppins', sans-serif;
+   font-size: 12px;
+   font-weight: 400;
+   color: #ffffff;
+   line-height: 1.5;
+   padding: 24px 34px;
+}
+.instra__gram .overlay__instra{
+    opacity: 0;  
+    transition: .4s;
+
+}
+.instra__gram:hover .overlay__instra{
+   opacity: 1;
+}
+.instra__icon{
+    width: 40px;
+    height: 40px;
+    background: #1818187a;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    line-height: 40px;
+    margin-left: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+
+
+/* 6.-------------------------------------------
+                    testimonial Section
+-----------------------------------------------*/
+#testimonial__section{
+    padding: 80px 0;
+    background: #E8EAED;
+}
+#testimonial__section h2{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: #181818;
+    padding-bottom: 15px;
+    margin-bottom: 45px;
+    position: relative;
+}
+#testimonial__section h2::after{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150px;
+    height: 3px;
+    border-radius: 2px;
+    background: #1D2CF3;
+    content: "";
+}
+#testimonial__section .row{
+    flex-wrap: nowrap !important;
+    overflow-x: scroll !important;
+    
+}
+.testimonial{
+    text-align: center;
+}
+.testimonial .testi__img{
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    margin: 0 auto;
+    position: relative;
+}
+.testimonial .testi__img img{
+    border-radius: 50%;
+    display: block;
+    margin:  0 auto;
+}
+.testimonial .testi__img .testi__icon{
+    width: 50px;
+    height: 50px;
+    background: #181818;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+}
+.testimonial .testi__img .testi__icon i{
+    margin-top: 16px;
+}
+.testimonial .testi__img .testi__icon .testi__shape{
+    width: 17px;
+    height: 20px;
+    background: #181818;
+    position: absolute;
+    bottom: -7px;
+    left: -2px;
+    clip-path: polygon(43% 0, 0% 100%, 100% 51%);
+    z-index: 1;
+} 
+.testi__details h6{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #181818;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+.testi__details p{
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #181818;
+    line-height: 1.5;
+}
+/* 6.-------------------------------------------
+                    Contact Section
+-----------------------------------------------*/
+#contact__section{
+    padding: 80px 0;
+    background: #ffffff;
+}
+#contact__section .contact input{
+   width: 80%;
+   height: 40px;
+   background: transparent;
+   border: none;
+   border-bottom: 2px solid #4f4f4f;
+   color: #181818;
+   font-family: 'Zen Kaku Gothic Antique', sans-serif;
+   font-size: 14px;
+   font-weight: 400;
+   padding-left: 8px;
+   margin-bottom: 25px;
+   
+}
+#contact__section .contact textarea{
+    width: 80%;
+    height: 60px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #4f4f4f;
+    color: #181818;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 8px;
+    margin-bottom: 25px;
+    resize: none;
+ }
+ #contact__section .contact .button{
+     text-align: right;
+     margin-right: 80px;
+ }
+ #contact__section .contact button{
+     width: 120px;
+     height: 40px;
+     background: #ffffff;
+     border: #ffffff;
+     color: #181818;
+     font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    transition: .4s;
+    margin-left: auto;
+    margin: 0 auto;
+
+ }
+ #contact__section .contact button:hover{
+     color: #1D2CF3;
+ }
+::placeholder{
+    color: #000000 !important;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 8px;
+    opacity: 1;
+}
+input[type=number]{
+    -moz-appearance: textfield;
+}
+input:focus,textarea:focus{
+    outline: none;
+    border-bottom-color: red !important;
+}
+.contact__text{
+    text-align: center;
+    padding-top: 80px;
+}
+#contact__section .contact__text h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: #181818;
+    margin-bottom: 15px;
+    position: relative;
+}
+#contact__section .contact__text h4::after{
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    width: 200px;
+    background: #1D2CF3;
+    transform: translateX(-50%);
+    height: 2px;
+    content: "";
+    
+}
+
+#contact__section .contact__text p{
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #4f4f4f;
+    padding-top: 20px;
+}
+
+/* 7.-------------------------------------------
+                    About Section
+-----------------------------------------------*/
+
+
+/* 8.-------------------------------------------
+                    About Section
+-----------------------------------------------*/
+
+
+/* 9.-------------------------------------------
+                    About Section
+-----------------------------------------------*/
