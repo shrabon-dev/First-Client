@@ -134,6 +134,9 @@ button:focus {
 body{
     overflow-x: hidden;
 }
+.font{
+    font-size: 20px !important;
+}
 /* 2.-------------------------------------------
                     banner Section
 -----------------------------------------------*/
@@ -142,7 +145,7 @@ body{
        background-size: cover;
        width: 100%;
        height: 100vh;
-       padding-top: 90px;
+       padding-top: 150px;
 }
 #banner__section .banner__text{
     width: 550px;
@@ -153,33 +156,37 @@ body{
     margin-left: auto;
 }
 #banner__section .banner__text h4{
-    font-family: 'Zen Kaku Gothic Antique', sans-serif;
-    font-size: 28px;
-    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
     color: #ffffff;
     margin-bottom: 25px;
-    line-height: 1.4;
+    line-height: 1.2;
 }
 #banner__section .banner__text h4 span{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 67px;
-    font-weight: 800;
+    font-weight: 700;
     color: #ffffff;
     display: block;
 }
+#banner__section .banner__text h4 div{
+    margin-bottom: 5px;
+}
 
 #banner__section .banner__text .banner__button a{
+    font-family: 'Poppins', sans-serif;
     display: inline-block;
-    width: 320px;
+    width: 350px;
     background: #ffffff;
     color: #181818;
     padding: 8px 0;
     font-size: 20px;
     font-weight: 500;
     text-align: center;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
     border: 2px solid #ffffff;
-    border-radius: 15px;
+    border-radius: 8px;
     transition: .4s;
 }
 #banner__section .banner__text .banner__button .pricing{
@@ -240,7 +247,7 @@ body{
     font-weight: 400;
     color: #ffffff;
     margin-top: 25px;
-    line-height: 1.5;
+    line-height: 1.7;
 }
 #about__section .about__text a{
     display: inline-block;
@@ -252,7 +259,7 @@ body{
     text-align: center;
     padding: 10px 0;
     margin-top: 55px;
-    border-radius: 10px;
+    border-radius: 8px;
     transition: .4s;
 
 }
@@ -326,12 +333,12 @@ height: 400px;
     transform: scale(.96);
 }
 .nabs__tabs--button ul li .brd__lft{
-    border-top-left-radius: 15px !important;
-    border-bottom-left-radius: 15px !important;
+    border-top-left-radius: 8px !important;
+    border-bottom-left-radius: 8px !important;
 }
 .nabs__tabs--button ul li .brd__rgt{
-    border-top-right-radius: 15px !important;
-    border-bottom-right-radius: 15px !important;
+    border-top-right-radius: 8px !important;
+    border-bottom-right-radius: 8px !important;
 }
 .nabs__tabs--contents{
     text-align: center !important;
@@ -367,8 +374,8 @@ height: 400px;
 }
 .nabs__tabs--contents p{
     font-family: 'Poppins', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
+    font-size: 18px;
+    font-weight: 100;
     color: #4f4f4f;
     line-height: 1.5;
     padding: 0 150px;
@@ -376,8 +383,8 @@ height: 400px;
  }
  .nabs__tabs--contents .basket__plan{
      border: 1px solid #1818183f;
-     width: 80%;
-     height: 300px;
+     width: 100%;
+     height: 350px;
      margin: 0 auto;
      margin-top: 80px;
      font-family: 'Zen Kaku Gothic Antique', sans-serif;
@@ -387,20 +394,20 @@ height: 400px;
      font-size: 14px;
      color: #181818;
      font-weight: 300;
-     padding: 0 !important;
+     padding: 15px  0 0 0!important;
 
  }
  .nabs__tabs--contents .basket__plan h6{
-    font-family: 'Zen Kaku Gothic Antique', sans-serif;
-    font-size: 56px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 70px;
     color: #181818;
-    font-weight: 600;
+    font-weight: 100;
     margin-top: 20px;
 }
 .nabs__tabs--contents .basket__plan a{
     font-family: 'Zen Kaku Gothic Antique', sans-serif;
     display: inline-block;
-    width: 250px;
+    width: 292px;
     font-size: 16px;
     color: #ffffff;
     font-weight: 700;
@@ -658,8 +665,8 @@ height: 400px;
 }
 .instra__gram .overlay__instra ul li{
    font-family: 'Poppins', sans-serif;
-   font-size: 12px;
-   font-weight: 400;
+   font-size: 14px;
+   font-weight: 300;
    color: #ffffff;
    line-height: 1.5;
    padding: 24px 34px;
@@ -772,10 +779,10 @@ height: 400px;
 }
 .testi__details p{
     font-family: 'Zen Kaku Gothic Antique', sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     color: #181818;
-    line-height: 1.5;
+    line-height: 1.7;
 }
 /* 6.-------------------------------------------
                     Contact Section
@@ -789,7 +796,7 @@ height: 400px;
    height: 40px;
    background: transparent;
    border: none;
-   border-bottom: 2px solid #4f4f4f;
+   border-bottom: 2px solid #181818;
    color: #181818;
    font-family: 'Zen Kaku Gothic Antique', sans-serif;
    font-size: 14px;
@@ -850,7 +857,7 @@ input:focus,textarea:focus{
 }
 .contact__text{
     text-align: center;
-    padding-top: 80px;
+    padding-top: 40px;
 }
 #contact__section .contact__text h4{
     font-family: 'Poppins', sans-serif;
@@ -877,6 +884,7 @@ input:focus,textarea:focus{
     font-size: 24px;
     font-weight: 600;
     color: #4f4f4f;
+    padding: 0 55px;
     padding-top: 20px;
 }
 
